@@ -12,8 +12,6 @@ A real-time face mask detection system using the YOLO (You Only Look Once) objec
 4. [Model & Dataset](#model--dataset)  
 5. [Installation](#installation)  
 6. [Usage](#usage)  
-7. [Output Examples](#output-examples)  
-8. [Performance](#performance)  
 
 ---
 
@@ -70,7 +68,6 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 # Or directly:
 pip install ultralytics opencv-python
-bash '''
 
 # Usage: 
 # 1. Run on webcam (default)
