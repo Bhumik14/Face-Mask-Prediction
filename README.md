@@ -70,11 +70,14 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 # Or directly:
 pip install ultralytics opencv-python
+bash '''
 
-# Usuage
+# Usage: 
 # 1. Run on webcam (default)
 yolo task=detect mode=predict model=best.pt source=0
+
 # 2. Run on image
 yolo task=detect mode=predict model=best.pt source=examples/sample.jpg
+
 # 3. Run on video
 yolo task=detect mode=predict model=best.pt source=examples/sample_video.mp4
