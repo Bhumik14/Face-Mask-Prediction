@@ -33,40 +33,6 @@ The dataset undergoes normalization, resizing, and augmentation to improve model
 
 ---
 
-## 📁 Project Structure
-├── train.py # Script for training the CNN model
-├── detect.py # Script for running mask detection
-├── model.h5 # Saved trained model
-├── dataset/ # Training & validation datasets
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
-
----
-
-## ⚙️ Installation
-1. **Clone the repository**
-git clone <URL>
-cd <Folder>
-2. **Create a virtual environment** *(optional but recommended)*
-python -m venv venv
-source venv/bin/activate # For Windows: venv\Scripts\activate
-
-3. **Install dependencies**
-pip install -r requirements.txt
----
-
-## 🚀 Usage
-
-### ✔ Train the Model
-python train.py
-
-### ✔ Run Detection
-- On an **image**:
-python detect.py --image path_to_image.jpg
-
-- On **webcam feed**:
-
-  
 ---
 
 ## 🧠 Model Architecture
