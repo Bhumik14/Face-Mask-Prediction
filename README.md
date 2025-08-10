@@ -45,8 +45,8 @@ The dataset undergoes normalization, resizing, and augmentation to improve model
 
 ## ⚙️ Installation
 1. **Clone the repository**
-git clone <your-repo-url>
-cd <repo-folder>
+git clone <URL>
+cd <Folder>
 2. **Create a virtual environment** *(optional but recommended)*
 python -m venv venv
 source venv/bin/activate # For Windows: venv\Scripts\activate
